@@ -16,7 +16,7 @@ export default class Hello extends React.Component {
   render() {
     return (
       <div>
-        <h1>hellooo {this.state.name}</h1>
+        <h1>helloooo {this.state.name}</h1>
 
         <input onKeyUp={this.handleKeyUp.bind(this)}></input>
       </div>
