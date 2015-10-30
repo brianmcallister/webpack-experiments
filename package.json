@@ -4,9 +4,10 @@
   "description": "messing around",
   "main": "index.js",
   "scripts": {
-    "develop": "npm run build && webpack-dev-server --hot",
     "clean": "rm -rf public/",
-    "build": "npm run clean && webpack"
+    "build": "webpack",
+    "serve": "webpack-dev-server --hot --progress --colors --info",
+    "develop": "npm run clean && npm run build && npm run serve"
   },
   "author": "",
   "license": "ISC",

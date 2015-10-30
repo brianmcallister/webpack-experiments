@@ -1,7 +1,6 @@
-@import 'global.css';
-
 body {
   background: #eee;
+  margin: 10px;
 }
 
 .thing {
